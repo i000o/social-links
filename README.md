@@ -29,7 +29,7 @@ I did what I’ve come into the habit of doing which is listing and planning out
 
 ## Screenshot
 
-![](./Social%20links%20profile.png)
+![](./social-links-profile.png)
 
 ## Outcome
 
