@@ -15,5 +15,8 @@
 .DS_Store
 .prettierignore
 
-*.Social links profile.png
-*README-template.png
+# ignores all .md files
+.md
+
+# does not ignore the README.md file
+!README.md
