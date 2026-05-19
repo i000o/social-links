@@ -12,6 +12,7 @@ This is a solution to the [Social links challenge on Frontend Mentor](https://ww
 - [Built with](#built-with)
 - [Lessons](#lessons)
 - [Take forward](#take-forward)
+- [Refactor](#refactor)
 
 ## Overview
 
@@ -55,3 +56,12 @@ I’m really happy with this outcome. I ran through the task pretty quickly and 
 ## Take forward
 
 :grey_exclamation: Using Git and GitHub consistently on projects to get the hang of it…
+
+## Refactor
+
+I want to refactor this simple component with Tailwind to refresh my memory.
+
+1. Created a new branch with `git branch tailwind-refactor`, `git checkout tailwind-refactor`.
+2. I initiated Tailwind with command `npx @tailwindcss/cli -i src/input.css -o dist/output.css --watch`.
+3. I added `@import "tailwind";` to the `output.css` file to use baseline resets.
+4.
