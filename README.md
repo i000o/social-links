@@ -64,4 +64,6 @@ I want to refactor this simple component with Tailwind to refresh my memory.
 1. Created a new branch with `git branch tailwind-refactor`, `git checkout tailwind-refactor`.
 2. I initiated Tailwind with command `npx @tailwindcss/cli -i src/input.css -o dist/output.css --watch`.
 3. I added `@import "tailwind";` to the `output.css` file to use baseline resets.
-4.
+4. There were some inconsistencies with spacing such as the card's `padding` or the fact that I removed `p` from the `li` links. I just amended these by eye.
+5. I used `@apply` for some repeated styles with the `a` tags.
+6. I'd like to do more of these refactors to speed up my Tailwind.
