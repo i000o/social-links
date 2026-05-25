@@ -3,29 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="dist/output.css">
   <title>Frontend Mentor | Social links profile</title>
 </head>
-<body class="hidden flex-col bg-[#141414]">
+<body class="flex flex-col bg-[#141414] font-[Inter] text-[#ffffff] justify-center items-center text-center min-h-svh gap-[2rem] text-[1.4vw] font-normal font-semibold font-bold">
   <main> 
-    <section> 
-      <div> 
-        <img src="assets/images/avatar-jessica.jpeg" alt="profile image of Jessica Randall">
+    <section class="bg-[#1f1f1f] rounded-[16px] min-w-[22rem] p-[20px]"> 
+      <div class="flex flex-row justify-center p-[0]"> 
+        <img src="assets/images/avatar-jessica.jpeg" alt="profile image of Jessica Randall" class="w-[20%] border-hidden m-[0.5em] rounded-[40px]">
       </div>
+      <h1 class="text-[1.2rem] font-normal mb-[0]">Jessica Randall</h1>
+      <h2 class="text-[0.75rem] text-[#c5f82a] mt-[5px] mb-[10px] p-[5px]">London, United Kingdom</h2>
+      <h3 class="text-[0.8rem] font-light mt-[20px] mb-[10px] ml-[10px] mr-[10px]"><q>Front-end developer and avid reader.</q></h3>
 
-      <h1>Jessica Randall</h1>
-      <h2>London, United Kingdom</h2>
-      <h3><q>Front-end developer and avid reader.</q></h3>
-
-      <section class="links">
-        <ul class="list-none p-[0]"> 
+      <section>
+        <ul class="m-[0] p-[0]"> 
           <li> 
             <a href="#">
-              <p> 
                 GitHub
-              </p>
             </a>
           </li>
 
@@ -65,7 +61,7 @@
     </section>
   </main>
   
-  <footer> 
+  <footer class="flex flex-row justify-center text-[0.6em]"> 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Iman Osman</a>.
